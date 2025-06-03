@@ -1,7 +1,5 @@
 FROM alpine:latest
 
-RUN apk add --no-cache coreutils
-
 WORKDIR /app
 
 COPY script.sh /app/script.sh
